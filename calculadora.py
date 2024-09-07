@@ -47,10 +47,10 @@ while True:
     elif elegirOpcion == '4':
         print(f"El resultado es: {op.dividir(numero1, numero2)}")
 
- #Operaciones de un solo número   
+ #Operaciones de un solo nú mero   
     elif elegirOpcion == '5':
         numero = numeroValido("Ingrese un Número: ")
-        print(f"El resultado es: {op.cuadrado}")
+        print(f"El resultado es: {op.cuadrado(numero)}")
 
     elif elegirOpcion == '6':
         base = numeroValido("Ingrese la base: ")
